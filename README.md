@@ -19,3 +19,5 @@
 8. Now hover over your the text and observe that user just needs to acccept the pop-ups and this allows the program to be executed
 
 9. Combined with social engineering this attack would work completely.
+
+![](exploit.gif)
