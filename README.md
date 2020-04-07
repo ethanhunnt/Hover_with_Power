@@ -1,5 +1,3 @@
-"# Hover_with_Power" 
-
 ## Steps to reproduce the exploit
 
 1. In Powerpoint it is possible to set an action on a mouse over or mouse click 
@@ -19,5 +17,12 @@
 8. Now hover over your the text and observe that user just needs to acccept the pop-ups and this allows the program to be executed
 
 9. Combined with social engineering this attack would work completely.
+
+## Note:
+1. The attack is able to bypass the Powerpoint's restriction of not being able to add an remote file to the HyperLink action which iif you try to add using the GUI, we will see MS complaining about it
+
+2. Also if a HTTP/HTTPS url is linked with the hyperlink action, thene the OS would download the file using a browser on the system at which point Windows Defender/Smartscreen would kick in indication that it is untrusted file and even if you hit 'Run', it will quartine the file, so an attacker can bypass that using this method
+
+3. MSRC was contacted about the vulnerability, but they decided to ignore it and stated that since it requires social engineering attack, they are not willing to fix it.
 
 ![](exploit.gif)
